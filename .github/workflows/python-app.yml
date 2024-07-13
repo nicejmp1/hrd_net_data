@@ -28,7 +28,7 @@ jobs:
         pip install requests chardet
 
     - name: Run list data script
-      run: python fetch_list_data.py
+      run: python3 hrd_list_data/list.py
 
     - name: Commit and push changes
       run: |
